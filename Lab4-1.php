@@ -13,10 +13,10 @@ $message = "Thanapol seekhot";
 /*echo $x; echo "<br />";
 echo $y; echo "<br />";
 echo $z; echo "<br />"; */
-echo "ผลบวก 100+200 " ; echo "=$add"; echo "<br />";
-echo "ผลลบ 300-100  " ; echo "=$sub"; echo "<br />";
-echo "ผลคูณ 200*300  " ; echo "=$n" ; echo "<br />";
-echo "ผลหาร $n/300  " ; echo  "=$y"; echo "<br />";
+echo "ผลบวก $x + $y " ; echo "=$add"; echo "<br />";
+echo "ผลลบ $z-$x  " ; echo "=$sub"; echo "<br />";
+echo "ผลคูณ $y*$z  " ; echo "=$n" ; echo "<br />";
+echo "ผลหาร $n/$z " ; echo  "=$y"; echo "<br />";
 echo $message; echo "<br />";
 ?>
 </body>
