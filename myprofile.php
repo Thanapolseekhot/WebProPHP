@@ -6,6 +6,29 @@
     <title>profile</title>
 </head>
 <body>
-    <h1>my name thanapol</h1>
+<div class="menubar">
+    <div class="logo">
+        <h2>Home</h2>
+    </div>
+    <ul class="menu">
+        <li>
+            <a href=""> Personal history</a>
+        </li>
+        <li>
+            <a href=""> my picture</a>
+        </li>
+        <li>
+            <a href=""> Contant</a>
+        </li>
+    </ul>
+    <div class ="container ">
+        <center>
+            <h1>my name thanapol</h1>
+        </center>
+    </div>
+</div>
+
+    
+    
 </body>
 </html>
