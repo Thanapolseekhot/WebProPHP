@@ -17,7 +17,7 @@
             <a href=""> Personal history</a>
         </li>
         <li>
-            <a href="picture.php"> my picture</a>
+            <a href=""> my picture</a>
         </li>
         <li>
             <a href=""> Contant</a>
@@ -25,7 +25,7 @@
     </ul>
     <div class ="container ">
         <center>
-            <h1>my name thanapol</h1>
+            <h1>My picture</h1>
         </center>
     </div>
 </div>
