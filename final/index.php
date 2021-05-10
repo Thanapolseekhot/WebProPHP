@@ -28,26 +28,7 @@
 
             ตัวเครื่องมาพร้อมกับหน่วยความจำภายในความจุประมาณ 1GB ดังนั้นคุณจึงสามารถเพลิดเพลินไปกับการเล่นเกมได้ทันทีแม้ว่าคุณจะไม่ได้ซื้อการ์ดหน่วยความจำชนิดพิเศษของ PS Vita (แยกจำหน่ายต่างหาก)!</p>
     </div>
-	<div class="con-game">
-		<div class="box">
-			<div class="gameimg">
-				<img src="img/ray.jfif" style="width: 100%;">
-			<p>thanapol</p>
-			</div>
-		</div>
-		<div class="box">
-			<div class="gameimg" >
-			<img src="img/ray.jfif" style="width: 100%;">
-			<p>thanapol</p>
-			</div>
-		</div>
-		<div class="box">
-			<div class="gameimg">
-			<img src="img/ray.jfif" style="width: 100%;">
-			<p>thanapol</p>
-			</div>
-		</div>
-	</div>
+	
     <div class="cradit">
         
     </div>
