@@ -92,7 +92,7 @@
     <tr>
     <td width = "200">รูปภาพ</td>
     <td> <input type="hidden" name="max_size" value="5000000">
-    <input type="file" name="picture" size="30">
+    <input type="file" name="image[picture]" size="30">
     <br> <font size=2 color = #FF3300>นามสกุล .gif หรือ .jpg (เท่าน้ัน)</font></td>
     </tr>
     </table>

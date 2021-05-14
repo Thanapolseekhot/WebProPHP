@@ -17,7 +17,7 @@
 
         if (count($errors) == 0) {
             $password = md5($password);
-            $query = "SELECT * FROM register WHERE username = '$username' AND password = '$password' ";
+            $query = "SELECT * FROM user WHERE username = '$username' AND password = '$password' ";
             $result = mysqli_query($conn,$query);
 
             if (mysqli_num_rows($result) == 1) {
@@ -28,13 +28,13 @@
             else {
                 array_push($errors, "Wrong Username or Password");
                 $_SESSION['error'] = "Wrong  Username or Password";
-                header("location:login.php");
+                header("location:login2.php");
             }
             
         }else {
                 array_push($errors, "Username & Password is required");
                 $_SESSION['error'] = "Username & Password is required";
-                header("location:login.php");
+                header("location:login2.php");
             }
 
     }

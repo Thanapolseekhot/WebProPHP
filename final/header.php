@@ -10,6 +10,7 @@
             <li><a href="console.php">CONSOLE</a></li>
             <li><a href="#">ASSARARY</a></li>
             <li><a href="#">ABOUT PSVITA</a></li>
+            <li><a href="login2.php">LOGIN</a></li>
         </ul>
     </div>
     

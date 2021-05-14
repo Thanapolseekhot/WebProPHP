@@ -19,7 +19,7 @@
     $type=$_POST['typee'];
     $price=$_POST['price'];
     $max_size = $_POST['max_size'];
-    $ImageFile = $_FILES['picture'];
+    $ImageFile = $_FILES['image[picture]'];
     $Flag = false;
     if ($ImageFile=="") {
         echo "<B><CENTER><li>คุณไม่ได้เลือกรูปภาพ.</CENTER></B><BR>";

@@ -19,7 +19,7 @@
         .carousel-item{
             margin-top: 5px;
             height: 30rem;
-            background: #8C8D92;
+            background: white;
             color: black;
             position: relative;
             padding-left: 20px;
@@ -32,6 +32,7 @@
         }
         .container-fluid{
             margin-top: 30px;
+            width: 1250px;
         }
         
     </style>
@@ -96,7 +97,7 @@
 
 
                 while($row = mysqli_fetch_array($result)){?>
-                    <div class="col-4">
+                    <div class="col-3">
                         <form method="get" action="game.php?id=<?=$row['id']?>" >
                             <center><a href=""><img src="img/god.jpg" style="width: 50%; padding:20px"></a>
                             <h5 class="text-center"><?=$row['nameg'];?></h5>
@@ -104,7 +105,7 @@
                             <input type="hidden" name="name" value="<?=$row['name'] ?>">
                             <input type="hidden" name="price" value="<?=$row['price'] ?>">
                             <input type="number" name="quantity" value="1"  >
-                            <input type="submit" name="add" class="btn btn-warning btn-block my-2">
+                            <input type="submit" name="add" value="addcart" class="btn btn-warning btn-block my-2">
                             </center>
                     
                         </form>

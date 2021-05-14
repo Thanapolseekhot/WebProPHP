@@ -10,7 +10,7 @@ html,body{
   height: 100%;
   width: 100%;
   place-items:right;
-  background-image: url(log.jpg);
+  background-image: url("log.jpg");
 }
 ::selection{
   background: #fa4299;

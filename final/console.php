@@ -32,6 +32,7 @@
         }
         .container-fluid{
             margin-top: 30px;
+            width: 1250px;
         }
         
     </style>
@@ -85,7 +86,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" >
     <div class="row">
             <?php
                 $query ="SELECT*FROM console";
